@@ -38,22 +38,9 @@
 		D287D355740D6981BFB51DB4 /* Pods-BasicMapApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicMapApp.release.xcconfig"; path = "Target Support Files/Pods-BasicMapApp/Pods-BasicMapApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		A97D3E6C2D247D0900B31952 /* Exceptions for "BasicMapApp" folder in "BasicMapApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = A98D96532D2379A300A03649 /* BasicMapApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A98D96562D2379A300A03649 /* BasicMapApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				A97D3E6C2D247D0900B31952 /* Exceptions for "BasicMapApp" folder in "BasicMapApp" target */,
-			);
 			path = BasicMapApp;
 			sourceTree = "<group>";
 		};
