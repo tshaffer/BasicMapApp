@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F833FC7BEC33D36AC0DFCE1 /* Pods_BasicMapApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B9F93952038FC8B8CC6F1B8 /* Pods_BasicMapApp.framework */; };
+		A90890BC2D246E75006A4AF2 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = A90890BB2D246E75006A4AF2 /* Secrets.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		1B9F93952038FC8B8CC6F1B8 /* Pods_BasicMapApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicMapApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD48C243C94D94E10D0E8CD /* Pods-BasicMapApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicMapApp.debug.xcconfig"; path = "Target Support Files/Pods-BasicMapApp/Pods-BasicMapApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A90890BB2D246E75006A4AF2 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 		A98D96542D2379A300A03649 /* BasicMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98D96652D2379A400A03649 /* BasicMapAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMapAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98D966F2D2379A400A03649 /* BasicMapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BasicMapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +99,7 @@
 				A98D96552D2379A300A03649 /* Products */,
 				D2DD9FA9D375137273AEB128 /* Pods */,
 				3B557DC30B9205DC503504B4 /* Frameworks */,
+				A90890BB2D246E75006A4AF2 /* Secrets.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A90890BC2D246E75006A4AF2 /* Secrets.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,7 +454,7 @@
 		};
 		A98D967A2D2379A400A03649 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DD48C243C94D94E10D0E8CD /* Pods-BasicMapApp.debug.xcconfig */;
+			baseConfigurationReference = A90890BB2D246E75006A4AF2 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +475,7 @@
 					"$(inherited)",
 				);
 				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "Info.plist\nInfo.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

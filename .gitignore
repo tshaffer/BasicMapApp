@@ -17,3 +17,7 @@ fastlane/screenshots/**/*.png
 # Carthage
 Carthage/Build
 
+# Environment Variables
+.env
+Secrets.xcconfig
+
