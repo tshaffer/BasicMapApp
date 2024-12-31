@@ -1,14 +1,12 @@
-//
-//  BasicMapAppApp.swift
-//  BasicMapApp
-//
-//  Created by Ted Shaffer on 12/30/24.
-//
-
 import SwiftUI
+import GoogleMaps
 
 @main
-struct BasicMapAppApp: App {
+struct BasicMapApp: App {
+    init() {
+        GMSServices.provideAPIKey("AIzaSyDUfyALZYhW7bJE8DFIQMyIH_bgIudacVI")
+    }
+
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -1,0 +1,19 @@
+# Xcode and macOS
+*.xcuserdata
+*.xcworkspace
+DerivedData/
+build/
+.DS_Store
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# Carthage
+Carthage/Build
+
