@@ -4,7 +4,7 @@ import GoogleMaps
 @main
 struct BasicMapApp: App {
     init() {
-        GMSServices.provideAPIKey("AIzaSyDUfyALZYhW7bJE8DFIQMyIH_bgIudacVI")
+        GMSServices.provideAPIKey("")
     }
 
     var body: some Scene {
